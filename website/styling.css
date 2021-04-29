@@ -1,0 +1,71 @@
+/* Main styling */
+html {
+    text-align: center;								/* Centering */
+    font-family: 'Nerko One', 'Lobster', cursive;				/* Font */
+    padding: 2em;								/* Padding */
+}
+
+/* Body styling */
+body {
+    background-color: rgb(255, 255, 255);					/* Background color */
+}
+
+/* Header styling */
+h1 {
+  font-family: 'Lobster', cursive;						/* Font */
+  font-size: 80px;								/* Sizing */
+  ;
+}
+h2 {
+  font-family: 'Lobster', cursive;						/* Font */
+  font-size: 60px; 								/* Sizing */
+}
+
+/* Fortunes cookie sayings text */
+fortuneCookieSaying {
+    font-family: 'Nerko One', cursive;						/* Font */
+    font-size: 10px; 								/* Sizing */
+    text-align: center;								/* Centering */
+}
+
+/* Fortune cookie sayings container */
+p {
+	font-size: 30px;							/* Sizing */
+}
+
+/* Button styling */
+button {
+  font: 25px 'Lobster', cursive;						/* Font */
+  display: inline-block;							/* Block styling feature */
+  border-radius: 8px;								/* Block border sizing */
+  box-shadow: 0 8px 16px 0 rgb(0,0,0,0.2), 0 6px 20px 0 rgb(0,0,0,0.19);	/* Shadow sizing and coloring */
+  padding: 40px 60px;								/* Padding */
+  background-color: rgb(255, 153, 167); 					/* Button background */
+}
+
+/* Previous fortune cookie sayings container styling */
+ul {
+    list-style: none;
+}
+li {
+  font-family: 'Nerko One', cursive;
+}
+
+#vid {
+  width: 100vw;
+  height: 400vw;
+  object-fit: cover;
+  z-index: -1;
+  position: absolute;
+  background-color: black;
+}
+
+#yt {
+  display: none;
+}
+
+#content {
+
+}
+
+p{}

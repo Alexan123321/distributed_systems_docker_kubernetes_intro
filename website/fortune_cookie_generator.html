@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+	<!-- Head -->
+	<head>	
+		<!-- Backend information -->
+		<title>Fortune Cookie Generator</title>
+		<meta name="description" content="The following page, associated subpages and scripts were created as part of the course distributed systems in the bachelor's degree of Computer 							  Engineering at the University of Aarhus, 3rd semester, Fall 2020."/>
+		<meta name="author" content="Liulihan Kuang, Jeppe Schildt, Kristoffer Plagborg Bak Sørensen, Alexander Stæhr Johansen" />  				
+		<!-- Character encoding -->		
+		<meta charset="utf-8">
+		<!-- Screen scaling -->
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- Fetching stylesheet from GitHub via. Combinatronics -->
+		<link rel="stylesheet" href="https://combinatronics.com/Alexan123321/CE/main/3_sem/dist_systems/website/styling.css">
+		<!-- Fetching JS from GitHub via. Combinatronics -->
+		<script type="text/javascript" src="https://combinatronics.com/Alexan123321/CE/main/3_sem/dist_systems/website/fortuneGenerator.js"></script>
+		<!-- Font includes -->
+  		<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Nerko+One&display=swap" rel="stylesheet"> 
+	</head>
+
+	<!-- Body -->
+	<body>
+		<!-- H1 header -->
+  		<h1>The Fortune Cookie awaits</h1>
+		<!-- Separator line -->
+  		<hr/>
+		<!-- Kawaii fortune cookie image insertion -->
+  		<img src="http://cliparts101.com/files/220/07F6FF274632F19F7FE0DD5B18773DB0/1537042523.png" width="500" height="433">
+		<!-- Fortune cookie sayings -->    		
+		<p id="fortuneCookieSaying"></p>
+		<!-- Button calling the fortune saying method and pasting it to the "fortune-cookie-text" paragraph -->
+ 		<button id="generatorButton" onclick="generateFortuneCookieSaying()">
+            		Crack a Cookie
+           	</button>
+		<!-- Breaks -->  		
+		<br/>
+  		<br/>
+		<!-- Separator line -->
+  		<hr/>
+		<!-- H2 header -->
+  		<h2>Previous Fortunes</h2>
+		<!-- Separator line -->		
+		<hr/>
+		<!-- The previously generated fortune cookie sayings are listed in this container -->
+  		<ul id="previousFortuneSayings"></ul>
+	</body>
+</html>
